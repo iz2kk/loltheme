@@ -3,7 +3,7 @@
 
 :root {
     /* link background của client mn thay đổi ở dưới */
-    --background: url('https://i.imgur.com/2pTEiSE.jpg'); 
+    --background: url('https://i.imgur.com/DMN4XIZ.jpg'); 
  }
  
  /* UI */
@@ -102,7 +102,7 @@
     background-color:transparent !important;
  
     /*225 x 720 */
-    background:url('https://i.imgur.com/DMN4XIZ.jpg')!important;
+    background:url('https://i.imgur.com/2pTEiSE.jpg')!important;
    *box-shadow: inset 0px 0px 1278px  rgba(220, 20, 60, 0.2) ;        
     *border-radius:20px 20px 0px 0px;
  }
@@ -118,22 +118,22 @@
  
 /* link icon hiển thị THL */
 .currency-be-icon-static {
-   background-image: url('https://cdn.discordapp.com/attachments/1060960042188283944/1061530911528714300/Emo_12.png') !important;
+   background-image: url('https://i.imgur.com/EDjbjLv.png') !important;
 }
 
 /* link icon hiển thị RP */
 .currency-rp {
-   background-image: url('https://cdn.discordapp.com/attachments/1060960042188283944/1061530911843291176/Emo_37.png') !important;
+   background-image: url('https://i.imgur.com/EDjbjLv.png') !important;
 }
 
 /* link icon nút hiển thị thông báo của client (cái nút chấm than màu đỏ hoặc vàng mỗi khi xảy ra lỗi khi còn ở garena ý) */
 .ticker-button {
-   background-image: url('https://cdn.discordapp.com/attachments/1060960042188283944/1061531161710567454/Emo_28.png') !important;
+   background-image: url('hhttps://i.imgur.com/EDjbjLv.png') !important;
    transition: all 0.2s ease-in-out;
 }
  
  .ticker-button:hover {
-    background-image: url('https://cdn.discordapp.com/attachments/1060885429718626394/1060934727558774934/alert_1.png') !important;
+    background-image: url('https://i.imgur.com/EDjbjLv.png') !important;
     size: 110%;
  }
  .navigation-status-ticker {

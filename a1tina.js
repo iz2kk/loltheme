@@ -92,7 +92,7 @@ const observer = new MutationObserver((mutations) => {
  
  function themeReload() {
     var style = document.createElement('link');
-    style.href = 'file:///D:/Game/league-loader-0.3b/league-loader-0.3b/plugins/a1tina.css';
+    style.href = 'https://cdn.jsdelivr.net/gh/iz2kk/loltheme@newTheme/a1tina.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);
@@ -117,7 +117,7 @@ const observer = new MutationObserver((mutations) => {
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
-          '<link rel="stylesheet" href="file:///D:/Game/league-loader-0.3b/league-loader-0.3b/plugins/a1tina.css" />'
+          '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@newTheme/a1tina.css" />'
        );
     console.clear();
     console.log('We injected bois');
