@@ -1,4 +1,5 @@
 @echo off
+:gitAgain
 copy /y "D:\Game\league-loader-0.3b\league-loader-0.3b\IZI_Theme_lib.js" "D:\Game\league-loader-0.3b\league-loader-0.3b\plugins\IZI_Theme_lib.js"
 
 
@@ -17,3 +18,5 @@ echo "Your CDN Link"
 echo %CDNLINK%
 echo %jsLINK%
 pause.
+cls
+goto gitAgain

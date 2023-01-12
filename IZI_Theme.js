@@ -115,6 +115,12 @@ const observer = new MutationObserver((mutations) => {
        }
 	   
     }, 500);
+	document
+       .getElementsByTagName('body')[0]
+       .insertAdjacentHTML(
+          'afterbegin',
+          '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@LTHM02/IZI_Theme.css" />'
+       );
 	 document
        .getElementsByTagName('head')[0]
        .insertAdjacentHTML(
@@ -125,14 +131,9 @@ const observer = new MutationObserver((mutations) => {
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
-         '<script defer src="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem012/IZI_Theme_lib.js"></script>'
+         '<script defer src="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@LTHM02/IZI_Theme_lib.js"></script>'
        );
-    document
-       .getElementsByTagName('body')[0]
-       .insertAdjacentHTML(
-          'afterbegin',
-          '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem012/IZI_Theme.css" />'
-       );
+    
 	  
 	 
 
