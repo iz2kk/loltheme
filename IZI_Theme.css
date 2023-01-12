@@ -102,9 +102,11 @@
     background-color:transparent !important;
  
     /*225 x 720 */
-    background:url('https://i.imgur.com/2pTEiSE.jpg')!important;
-   *box-shadow: inset 0px 0px 1278px  rgba(220, 20, 60, 0.2) ;        
-    *border-radius:20px 20px 0px 0px;
+    background: url(https://i.imgur.com/WarICZk.png) no-repeat !important;
+    background-size: auto 720px !important;
+    background-position: 23% 17% !important;
+}
+
  }
  
  
