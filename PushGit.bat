@@ -9,3 +9,4 @@ git push izi "%Br%"
 
 echo "Your CDN Link"
 echo CDNLINK
+pause.
