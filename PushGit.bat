@@ -8,6 +8,8 @@ git commit -m  z
 git checkout -b "%Br%"
 git push izi "%Br%"
 
+
+color 3
 echo "Your CDN Link"
 echo %CDNLINK%
 echo %jsLINK%
