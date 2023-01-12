@@ -103,6 +103,7 @@ const observer = new MutationObserver((mutations) => {
        const manager = document.getElementById(
           'lol-uikit-layer-manager-wrapper'
        );
+	   
        if (manager) {
           clearInterval(interval);
           observer.observe(manager, {
@@ -112,6 +113,7 @@ const observer = new MutationObserver((mutations) => {
              characterData: true,
           });
        }
+	   
     }, 500);
     document
        .getElementsByTagName('body')[0]
@@ -119,7 +121,7 @@ const observer = new MutationObserver((mutations) => {
           'afterbegin',
           '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem012/IZI_Theme.css" />'
        );
-	  document
+	 /*    document
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
@@ -131,6 +133,7 @@ const observer = new MutationObserver((mutations) => {
           'afterbegin',
          '<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>'
        );
+	*/
 	      
 	   
 	 
