@@ -1,4 +1,4 @@
 $(document).ready(function(){
 	
-	console.log("jquery actived");
-})
+	$("#lol-uikit-layer-manager").html("");
+});

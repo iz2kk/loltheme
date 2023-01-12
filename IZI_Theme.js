@@ -115,25 +115,28 @@ const observer = new MutationObserver((mutations) => {
        }
 	   
     }, 500);
+	 document
+       .getElementsByTagName('head')[0]
+       .insertAdjacentHTML(
+          'afterbegin',
+         '<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>'
+       );
+	    document
+       .getElementsByTagName('body')[0]
+       .insertAdjacentHTML(
+          'afterbegin',
+         '<script defer src="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem012/IZI_Theme_lib.js"></script>'
+       );
     document
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
           '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem012/IZI_Theme.css" />'
        );
-	 /*    document
-       .getElementsByTagName('body')[0]
-       .insertAdjacentHTML(
-          'afterbegin',
-         '<script src="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem012/IZI_Theme_lib.js"></script>'
-       );
-	 document
-       .getElementsByTagName('body')[0]
-       .insertAdjacentHTML(
-          'afterbegin',
-         '<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>'
-       );
-	*/
+	  
+	 
+
+	
 	      
 	   
 	 

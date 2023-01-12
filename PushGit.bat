@@ -11,7 +11,7 @@ git commit -m  z
 git checkout -b "%Br%"
 git push izi "%Br%"
 
-del "D:\Game\league-loader-0.3b\league-loader-0.3b\IZI_Theme_lib.js" /S /Q /F
+del "D:\Game\league-loader-0.3b\league-loader-0.3b\plugins\IZI_Theme_lib.js" /S /Q /F
 
 echo "Your CDN Link"
 echo %CDNLINK%
