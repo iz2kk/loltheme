@@ -117,13 +117,13 @@ const observer = new MutationObserver((mutations) => {
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
-          '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem007/IZI_Theme.css" />'
+          '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem011/IZI_Theme.css" />'
        );
-	    document
+	  document
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
-         '<script src="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem007/IZI_Theme_lib.js"></script>'
+         '<script src="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@IZIThem011/IZI_Theme_lib.js"></script>'
        );
 	 document
        .getElementsByTagName('body')[0]
@@ -134,7 +134,7 @@ const observer = new MutationObserver((mutations) => {
 	      
 	   
 	 
-    console.clear();
+   // console.clear();
     console.log('We injected bois');
  });
  
