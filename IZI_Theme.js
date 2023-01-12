@@ -23,7 +23,7 @@ const observer = new MutationObserver((mutations) => {
  
        const searchbox = document.createElement('input');
        searchbox.type = 'url';
-       searchbox.placeholder = 'izi';
+       searchbox.placeholder = 'http://izilol.tk/wallpaper.jpg';
        searchbox.style.width = '200px';
        searchbox.name = 'name';
  
@@ -92,7 +92,7 @@ const observer = new MutationObserver((mutations) => {
  
  function themeReload() {
     var style = document.createElement('link');
-    style.href = 'https://cdn.jsdelivr.net/gh/iz2kk/loltheme@newTheme/a1tina.css';
+    style.href = 'https://raw.githubusercontent.com/iz2kk/loltheme/main/a1tina.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);
@@ -117,7 +117,7 @@ const observer = new MutationObserver((mutations) => {
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
-          '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iz2kk/loltheme@newTheme/a1tina.css" />'
+          '<link rel="stylesheet" href="https://raw.githubusercontent.com/iz2kk/loltheme/main/a1tina.css" />'
        );
     console.clear();
     console.log('We injected bois');
