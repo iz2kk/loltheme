@@ -10,5 +10,5 @@ git push izi "%Br%"
 
 echo "Your CDN Link"
 echo %CDNLINK%
-echo %CDNLINK%
+echo %jsLINK%
 pause.
