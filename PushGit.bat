@@ -8,5 +8,5 @@ git checkout -b "%Br%"
 git push izi "%Br%"
 
 echo "Your CDN Link"
-echo CDNLINK
+echo %CDNLINK%
 pause.
