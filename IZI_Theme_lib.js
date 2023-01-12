@@ -1,3 +1,2 @@
-$(document).ready(function(){
-	$("#lol-uikit-layer-manager").html("");
-});
+
+	$("#ember839").css("border", "10px solid green");
